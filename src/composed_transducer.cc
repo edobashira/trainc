@@ -21,6 +21,7 @@
 #include <deque>
 #include "fst/arcsort.h"
 #include "fst/compose.h"
+#include "fst/map.h"
 #include "fst/project.h"
 #include "fst/queue.h"
 #include "fst/rmepsilon.h"

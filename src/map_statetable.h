@@ -113,6 +113,8 @@ public:
     return Iterator(tuple2id_[s1].begin(), tuple2id_[s1].end(), false, state_id_offset_);
   }
 
+  bool Error() const { return false; }
+
 private:
   typedef std::map<StateId, StateId> StateMap;
   typedef std::vector<std::map<StateId, StateId> > TupleMap;

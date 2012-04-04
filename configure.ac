@@ -1,5 +1,5 @@
 # AC_PREREQ(2.61)
-AC_INIT([TrainC], [0.5], [rybach@cs.rwth-aachen.de])
+AC_INIT([TrainC], [0.5.1], [rybach@cs.rwth-aachen.de])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign])
 AC_REVISION([$Rev$])
 
